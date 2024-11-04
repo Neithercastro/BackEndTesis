@@ -1,0 +1,22 @@
+# Usa la imagen base de ASP.NET Core
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+EXPOSE 80
+
+# Usa la imagen base para el SDK de .NET
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /src
+COPY ["Tesis2.csproj", "./"]
+RUN dotnet restore "./Tesis2.csproj"
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "Tesis2.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "Tesis2.csproj" -c Release -o /app/publish
+
+# Configura la imagen base para la ejecución
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "Tesis2.dll"]
