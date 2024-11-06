@@ -1,0 +1,469 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Tesis2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/ContenidoDetalle/{idActividad}/{idEstiloAprendizaje}": {
+      "get": {
+        "tags": [
+          "ContenidoDetalle"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "idActividad",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "path",
+            "name": "idEstiloAprendizaje",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EstiloAprendizaje": {
+      "post": {
+        "tags": [
+          "EstiloAprendizaje"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/RespuestasDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Materias/semestre": {
+      "get": {
+        "tags": [
+          "Materias"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "semestre",
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Materia"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Materias/{id}": {
+      "get": {
+        "tags": [
+          "Materias"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Usuario/Validar": {
+      "post": {
+        "tags": [
+          "Usuario"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CredencialesDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Usuario/Registrar": {
+      "post": {
+        "tags": [
+          "Usuario"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/UsuarioDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Usuario/Buscar": {
+      "get": {
+        "tags": [
+          "Usuario"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UsuarioUsuarios",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/UsuarioDTO"
+            }
+          }
+        }
+      }
+    },
+    "/api/Verificacion/Registrar": {
+      "post": {
+        "tags": [
+          "Verificacion"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/VerificacionDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Contenidodetalle": {
+      "type": "object",
+      "properties": {
+        "idContenido": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idMateria": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idActividad": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idEstiloAprendizaje": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "descripcion": {
+          "type": "string"
+        },
+        "materialApoyo1": {
+          "type": "string"
+        },
+        "materialApoyo2": {
+          "type": "string"
+        },
+        "idEstiloAprendizajeNavigation": {
+          "$ref": "#/definitions/Estilosaprendizaje"
+        },
+        "idMateriaNavigation": {
+          "$ref": "#/definitions/Materia"
+        },
+        "idMateriaDetalleNavigation": {
+          "$ref": "#/definitions/Materiadetalle"
+        }
+      }
+    },
+    "CredencialesDTO": {
+      "type": "object",
+      "properties": {
+        "usuario": {
+          "type": "string"
+        },
+        "contrasena": {
+          "type": "string"
+        }
+      }
+    },
+    "Estilosaprendizaje": {
+      "type": "object",
+      "properties": {
+        "idestilosAprendizaje": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "contenidodetalles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Contenidodetalle"
+          }
+        },
+        "usuarios": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Usuario"
+          }
+        }
+      }
+    },
+    "Materia": {
+      "type": "object",
+      "properties": {
+        "idMaterias": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "semestre": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "direccionImagen": {
+          "type": "string"
+        },
+        "contenidodetalles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Contenidodetalle"
+          }
+        },
+        "materiadetalles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Materiadetalle"
+          }
+        },
+        "semestreNavigation": {
+          "$ref": "#/definitions/Semestre"
+        }
+      }
+    },
+    "Materiadetalle": {
+      "type": "object",
+      "properties": {
+        "idMateriaDetalle": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombreActividad": {
+          "type": "string"
+        },
+        "idMateria": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idMateriaNavigation": {
+          "$ref": "#/definitions/Materia"
+        },
+        "contenidodetalles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Contenidodetalle"
+          }
+        }
+      }
+    },
+    "RespuestasDTO": {
+      "type": "object",
+      "properties": {
+        "usuarioId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "respuestas": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Semestre": {
+      "type": "object",
+      "properties": {
+        "idSemestres": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "materia": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Materia"
+          }
+        },
+        "usuarios": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Usuario"
+          }
+        }
+      }
+    },
+    "Usuario": {
+      "type": "object",
+      "properties": {
+        "idusuarios": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "usuario1": {
+          "type": "string"
+        },
+        "contraseña": {
+          "type": "string"
+        },
+        "correoElectronico": {
+          "type": "string"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "idestilos": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "semestres": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idestilosNavigation": {
+          "$ref": "#/definitions/Estilosaprendizaje"
+        },
+        "semestresNavigation": {
+          "$ref": "#/definitions/Semestre"
+        }
+      }
+    },
+    "UsuarioDTO": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idestilos": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "usuario": {
+          "type": "string"
+        },
+        "correo": {
+          "type": "string"
+        },
+        "contrasena": {
+          "type": "string"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "nombreEstilo": {
+          "type": "string"
+        },
+        "semestre": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "VerificacionDTO": {
+      "type": "object",
+      "properties": {
+        "usuario": {
+          "type": "string"
+        },
+        "permiso": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
