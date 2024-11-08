@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2024-11-07T02:39:08.9730255Z"
+    },
+    "identityapp1": {
+      "restored": true,
+      "restoreTime": "2024-11-07T02:41:04.2008076Z"
+    }
+  },
+  "parameters": {
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "ResourceGroup"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "bf967738-0b45-4fd9-a143-2c8d14303372"
+    }
+  }
+}

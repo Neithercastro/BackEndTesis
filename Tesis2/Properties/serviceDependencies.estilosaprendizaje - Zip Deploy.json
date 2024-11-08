@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/Tesis/apis/Tesis2",
+      "type": "apis.azure"
+    },
+    "identityapp1": {
+      "connectionInfo": "Registro de la aplicación: oswaldo, Inquilino: Directorio predeterminado (oswaldocastro13hotmail.onmicrosoft.com - Microsoft Entra ID)",
+      "type": "identityapp.default"
+    }
+  }
+}

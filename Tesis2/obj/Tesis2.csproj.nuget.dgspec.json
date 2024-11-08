@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oswal\\source\\repos\\Tesis2\\Tesis2\\Tesis2.csproj": {}
+    "C:\\Users\\oswal\\Source\\Repos\\BackEndTesis\\Tesis2\\Tesis2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oswal\\source\\repos\\Tesis2\\Tesis2\\Tesis2.csproj": {
+    "C:\\Users\\oswal\\Source\\Repos\\BackEndTesis\\Tesis2\\Tesis2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oswal\\source\\repos\\Tesis2\\Tesis2\\Tesis2.csproj",
+        "projectUniqueName": "C:\\Users\\oswal\\Source\\Repos\\BackEndTesis\\Tesis2\\Tesis2.csproj",
         "projectName": "Tesis2",
-        "projectPath": "C:\\Users\\oswal\\source\\repos\\Tesis2\\Tesis2\\Tesis2.csproj",
+        "projectPath": "C:\\Users\\oswal\\Source\\Repos\\BackEndTesis\\Tesis2\\Tesis2.csproj",
         "packagesPath": "C:\\Users\\oswal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oswal\\source\\repos\\Tesis2\\Tesis2\\obj\\",
+        "outputPath": "C:\\Users\\oswal\\Source\\Repos\\BackEndTesis\\Tesis2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oswal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,12 +35,25 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.31, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[6.0.31, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -51,6 +65,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[2.19.1, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[2.19.1, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
@@ -92,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

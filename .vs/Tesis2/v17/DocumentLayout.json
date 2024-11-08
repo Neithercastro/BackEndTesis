@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|c:\\users\\oswal\\source\\repos\\backendtesis\\tesis2\\controllers\\estiloaprendizajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|solutionrelative:tesis2\\controllers\\estiloaprendizajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|c:\\users\\oswal\\source\\repos\\backendtesis\\tesis2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|solutionrelative:tesis2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|c:\\users\\oswal\\source\\repos\\backendtesis\\tesis2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|solutionrelative:tesis2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|c:\\users\\oswal\\source\\repos\\backendtesis\\tesis2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|solutionrelative:tesis2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|c:\\users\\oswal\\source\\repos\\backendtesis\\tesis2\\controllers\\verificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|solutionrelative:tesis2\\controllers\\verificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|c:\\users\\oswal\\source\\repos\\backendtesis\\tesis2\\entities\\estilosaprendizajecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|solutionrelative:tesis2\\entities\\estilosaprendizajecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|c:\\users\\oswal\\source\\repos\\backendtesis\\tesis2\\dto\\contenidodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|solutionrelative:tesis2\\dto\\contenidodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|c:\\users\\oswal\\source\\repos\\backendtesis\\tesis2\\entities\\contenidodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|solutionrelative:tesis2\\entities\\contenidodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|c:\\users\\oswal\\source\\repos\\backendtesis\\tesis2\\controllers\\contenidodetallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|solutionrelative:tesis2\\controllers\\contenidodetallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|c:\\users\\oswal\\source\\repos\\backendtesis\\tesis2\\entities\\materiadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|solutionrelative:tesis2\\entities\\materiadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|c:\\users\\oswal\\source\\repos\\backendtesis\\tesis2\\entities\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|solutionrelative:tesis2\\entities\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|c:\\users\\oswal\\source\\repos\\backendtesis\\tesis2\\entities\\verificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A46CE8E-E9E5-45C3-93C7-52C335C44307}|Tesis2\\Tesis2.csproj|solutionrelative:tesis2\\entities\\verificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\appsettings.json",
+              "RelativeDocumentMoniker": "Tesis2\\appsettings.json",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\appsettings.json",
+              "RelativeToolTip": "Tesis2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T00:20:39.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Contenidodetalle.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Entities\\Contenidodetalle.cs",
+              "RelativeDocumentMoniker": "Tesis2\\Entities\\Contenidodetalle.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Entities\\Contenidodetalle.cs",
+              "RelativeToolTip": "Tesis2\\Entities\\Contenidodetalle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:20:39.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContenidoDetalleController.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Controllers\\ContenidoDetalleController.cs",
+              "RelativeDocumentMoniker": "Tesis2\\Controllers\\ContenidoDetalleController.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Controllers\\ContenidoDetalleController.cs",
+              "RelativeToolTip": "Tesis2\\Controllers\\ContenidoDetalleController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAArwCIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:20:39.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EstiloAprendizajeController.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Controllers\\EstiloAprendizajeController.cs",
+              "RelativeDocumentMoniker": "Tesis2\\Controllers\\EstiloAprendizajeController.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Controllers\\EstiloAprendizajeController.cs",
+              "RelativeToolTip": "Tesis2\\Controllers\\EstiloAprendizajeController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwEMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:20:39.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VerificacionController.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Controllers\\VerificacionController.cs",
+              "RelativeDocumentMoniker": "Tesis2\\Controllers\\VerificacionController.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Controllers\\VerificacionController.cs",
+              "RelativeToolTip": "Tesis2\\Controllers\\VerificacionController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:20:39.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Tesis2\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Tesis2\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:20:39.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Program.cs",
+              "RelativeDocumentMoniker": "Tesis2\\Program.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Program.cs",
+              "RelativeToolTip": "Tesis2\\Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T02:46:38.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Materiadetalle.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Entities\\Materiadetalle.cs",
+              "RelativeDocumentMoniker": "Tesis2\\Entities\\Materiadetalle.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Entities\\Materiadetalle.cs",
+              "RelativeToolTip": "Tesis2\\Entities\\Materiadetalle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:20:39.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EstilosaprendizajeContext.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Entities\\EstilosaprendizajeContext.cs",
+              "RelativeDocumentMoniker": "Tesis2\\Entities\\EstilosaprendizajeContext.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Entities\\EstilosaprendizajeContext.cs",
+              "RelativeToolTip": "Tesis2\\Entities\\EstilosaprendizajeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:20:39.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContenidodetalleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\DTO\\ContenidodetalleDTO.cs",
+              "RelativeDocumentMoniker": "Tesis2\\DTO\\ContenidodetalleDTO.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\DTO\\ContenidodetalleDTO.cs",
+              "RelativeToolTip": "Tesis2\\DTO\\ContenidodetalleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:20:39.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Materia.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Entities\\Materia.cs",
+              "RelativeDocumentMoniker": "Tesis2\\Entities\\Materia.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Entities\\Materia.cs",
+              "RelativeToolTip": "Tesis2\\Entities\\Materia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:20:39.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Verificacion.cs",
+              "DocumentMoniker": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Entities\\Verificacion.cs",
+              "RelativeDocumentMoniker": "Tesis2\\Entities\\Verificacion.cs",
+              "ToolTip": "C:\\Users\\oswal\\source\\repos\\BackEndTesis\\Tesis2\\Entities\\Verificacion.cs",
+              "RelativeToolTip": "Tesis2\\Entities\\Verificacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:20:39.679Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
